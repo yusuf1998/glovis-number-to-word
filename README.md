@@ -1,8 +1,32 @@
 # Project: Glovis Coding Test
-# 📁 Collection: glovis-number-to-word 
+
+## Installations
+Hello welcome to the tech team! Start off by installing the components below.
+
+Java JDK (Java 8. Java version above it will not work yet for our project)
+IDE (Eclipse, IntelliJ IDEA)
+
+## Getting the Source Code
+Obtain the source code from the yusuf's private in Github repository at https://github.com/yusuf1998/glovis-number-to-word .
+
+## Importing the Project
+Import the project into your preferred IDE
+
+## Building the project
+Using command line, clean and build the project:
+
+> 1./gradlew clean build -x test --info
+
+The -x test command skips the testing task.
+
+You can run the Project directly by
+
+> 1./gradlew bootRun
 
 
 ## End-point: get convert number to word
+> {{host}}/number-word?lang={{langCode}}&num={{numberValue}}}
+
 Api that used for convert number to word
 
 #### Parameter

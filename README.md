@@ -57,8 +57,8 @@ Have 2 request params :
 
 |Param|value|
 |---|---|
-|lang|id|
-|num|5000|
+|lang|en|
+|num|123456789|
 
 
 ### Response: 200

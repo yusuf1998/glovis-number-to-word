@@ -2,21 +2,18 @@ package glovis.controller;
 
 import glovis.model.BaseJson;
 import glovis.model.WordResult;
-import glovis.service.NumberWordServiceTest;
+import glovis.service.NumberWordService;
 import glovis.util.NumberWordUtils;
 import glovis.util.Translator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.util.NumberUtils;
 import org.springframework.web.bind.annotation.*;
-
-import javax.servlet.http.HttpSession;
 
 @RestController
 public class GlovisControllerTest {
 	@Autowired
-	NumberWordServiceTest numberWordService;
+	NumberWordService numberWordService;
 
 	@RequestMapping(value = {"/number-word"}, method = RequestMethod.GET)
 	public ResponseEntity<BaseJson> convertNumberToWord(
